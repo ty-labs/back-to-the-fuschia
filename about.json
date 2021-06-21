@@ -1,9 +1,39 @@
 {
-  "about_url": null,
-  "license_url": null,
-  "assets": {
-  },
   "name": "Back to the Fuschia",
+  "component": false,
+  "about_url": "https://google.com",
+  "license_url": null,
+  "authors": "@T-Lowe",
+  "theme_version": "1.00",
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+
+  },
   "color_schemes": {
+    "Light Fuschia": {
+      "primary": "212121",
+      "secondary": "fafafa",
+      "tertiary": "ffa000",
+      "quaternary": "00796b",
+      "header_background": "00796b",
+      "header_primary": "ffffff",
+      "highlight": "ffff8d",
+      "danger": "ff5722",
+      "success": "4caf50",
+      "love": "fa6c8d"
+    },
+    "Dark Fuschia": {
+      "primary": "FAFAFA",
+      "secondary": "262833",
+      "tertiary": "36C7D0",
+      "quaternary": "7E8CE0",
+      "header_background": "CA2C92",
+      "header_primary": "262833",
+      "highlight": "FFCC00",
+      "danger": "C41E3A",
+      "success": "4ACFAC",
+      "love": "CA2C92"
+    }
   }
 }
