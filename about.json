@@ -1,10 +1,10 @@
 {
   "name": "Back to the Fuschia",
   "component": false,
-  "about_url": null,
-  "license_url": null,
-  "authors": "@T-Lowe",
-  "theme_version": "1.00",
+  "about_url": "https://github.com/tyjlowe/back-to-the-fuschia/tree/master",
+  "license_url": "https://github.com/tyjlowe/back-to-the-fuschia/blob/master/LICENSE",
+  "authors": "Tyler Lowe (@T-Lowe)",
+  "theme_version": "1.0",
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
