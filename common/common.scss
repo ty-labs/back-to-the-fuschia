@@ -2,11 +2,13 @@
     border-bottom: 1px solid var(--secondary);
 }
 
-.navigation-container, .user-primary-navigation {
+.navigation-container, .user-primary-navigation, .admin-main-nav {
     .nav-pills {
         & > li a { /** basically for every .nav-pills.li.a do this**/
             padding: 0px; // exchange padding for margin because padding will expand border
             margin: 0px 10px;
+            border-bottom: 4px solid transparent; // so the nav-item doesn't "jump" up 
+            transition: border-bottom 0.6s ease-out;
             &.active { /** Ampersand refers to the parent selector always **/
                 color: var(--quaternary);
                 background-color: var(--secondary);
@@ -16,6 +18,7 @@
                 color: var(--success);
                 background-color: var(--secondary);
                 border-bottom: 4px solid var(--success);
+
             }
         }
     }
