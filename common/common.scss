@@ -2,7 +2,7 @@
     border-bottom: 1px solid var(--secondary);
 }
 
-.navigation-container {
+.navigation-container, .user-primary-navigation {
     .nav-pills {
         & > li a { /** basically for every .nav-pills.li.a do this**/
             padding: 0px; // exchange padding for margin because padding will expand border
